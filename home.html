@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nafiz’s Journey - Lifestyle Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    /* Reset */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: #161b22;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #30363d;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header .logo {
+      font-weight: 700;
+      font-size: 1.8rem;
+      color: #58a6ff;
+      letter-spacing: 2px;
+      cursor: default;
+      user-select: none;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      color: #c9d1d9;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #58a6ff;
+      text-decoration: underline;
+    }
+
+    main {
+      flex: 1;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    main h1 {
+      font-size: 2.8rem;
+      color: #58a6ff;
+      margin-bottom: 20px;
+      text-align: center;
+      letter-spacing: 1.5px;
+    }
+
+    main p.intro {
+      color: #8b949e;
+      max-width: 700px;
+      margin: 0 auto 40px auto;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+
+    article.post {
+      background: #161b22;
+      padding: 25px 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px #2f81f7a8;
+      margin-bottom: 40px;
+      transition: box-shadow 0.3s ease;
+    }
+
+    article.post:hover {
+      box-shadow: 0 0 25px #58a6ffcc;
+    }
+
+    article.post h2 {
+      color: #79c0ff;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+
+    article.post p {
+      color: #c9d1d9;
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+
+    footer {
+      background: #161b22;
+      padding: 25px 40px;
+      text-align: center;
+      border-top: 2px solid #30363d;
+      color: #8b949e;
+      font-size: 0.9rem;
+      user-select: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+      main {
+        margin: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Nafiz’s Journey</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Welcome to My Lifestyle Blog</h1>
+    <p class="intro">
+      Sharing stories and insights on lifestyle, hard work, and personal growth. Join me as I explore the journey of turning dreams into reality, one step at a time.
+    </p>
+
+    <article class="post">
+      <h2>The Power of Consistency</h2>
+      <p>
+        Consistency is the secret ingredient to success. It’s not about being perfect every day, but about showing up and putting in the effort. Whether you’re building a new habit, a career, or a passion project, steady progress beats bursts of energy followed by burnout.
+      </p>
+    </article>
+
+    <article class="post">
+      <h2>Healthy Habits for a Better Life</h2>
+      <p>
+        Small daily habits like drinking enough water, getting enough sleep, and staying active can transform your life. I share practical tips that anyone can adopt to improve physical and mental well-being.
+      </p>
+    </article>
+  </main>
+
+  <footer>
+    &copy; 2025 Nafizur Rahman Mridha | NRM-MTG360 | All rights reserved.
+  </footer>
+
+</body>
+</html>
